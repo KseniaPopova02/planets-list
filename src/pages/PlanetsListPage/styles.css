@@ -1,0 +1,12 @@
+.planetListPage_wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 602px) {
+  .planetListPage_wrapper {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+}

@@ -1,0 +1,9 @@
+.notFoundPage_error {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.notFoundPage_back {
+  text-decoration: none;
+}

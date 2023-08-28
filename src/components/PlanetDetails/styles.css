@@ -1,0 +1,27 @@
+.planetDetails_wrapper {
+  max-width: 400px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 50px auto;
+}
+
+.planetDetails_list {
+  list-style: circle;
+}
+
+.planetDetails_list > li + li {
+  margin-top: 8px;
+}
+
+.planetDetails_back {
+  text-decoration: none;
+  display: block;
+  text-align: right;
+}
+
+@media (max-width: 450px) {
+  .planetDetails_wrapper {
+    margin: 0 10px;
+  }
+}

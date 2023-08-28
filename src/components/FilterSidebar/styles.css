@@ -1,0 +1,39 @@
+.filterSidebar_wrapper {
+  max-width: 250px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.filterSidebar_form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+}
+
+.filterSidebar_btn,
+.filterSidebar_filter {
+  padding: 10px;
+  border: 1px solid #333333;
+  color: #333333;
+  border-radius: 20px;
+}
+
+.filterSidebar_btn {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.filterSidebar_btn:hover {
+  background-color: #333333;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+@media (max-width: 320px) {
+  .filterSidebar_wrapper {
+    margin: 0 10px;
+  }
+}

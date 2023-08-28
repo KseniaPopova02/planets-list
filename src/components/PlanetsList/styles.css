@@ -1,0 +1,31 @@
+.planetsList_wrapper {
+  max-width: 250px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.planetsList_list {
+  list-style: circle;
+}
+
+.planetsList_list > li + li {
+  margin-top: 8px;
+  text-decoration: none;
+}
+
+.planetsList_link {
+  text-decoration: none;
+}
+
+@media (max-width: 602px) {
+  .planetsList_wrapper {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .planetsList_wrapper {
+    margin: 0 10px 50px 10px;
+  }
+}
