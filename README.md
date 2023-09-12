@@ -1,6 +1,6 @@
 # Planet List Application
 
-This application was developed as a test project and provides functionality to filter planets based on their name and minimum/maximum diameter. Additionally, clicking on a planet allows users to view detailed information about that planet.
+This application provides functionality to filter planets based on their name and minimum/maximum diameter. Additionally, clicking on a planet allows users to view detailed information about that planet.
 
 ## Business Overview
 
